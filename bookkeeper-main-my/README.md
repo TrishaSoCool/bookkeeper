@@ -22,7 +22,7 @@
 
 Задача первого этапа:
 
-1. Написали класс SqliteRepository | repository\sqlite_repository.py - использовали QtSql
+1. Написали класс SqliteRepository использовали QtSql
 
 Задача второго этапа:
 
