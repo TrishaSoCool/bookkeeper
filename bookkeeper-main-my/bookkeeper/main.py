@@ -129,7 +129,7 @@ class ExpenseTracker(QMainWindow):
         summa_day = self.conf.total_date_day()
         self.conf.update_transaction_query(summa_day, 1)
         summa_month = self.conf.total_balance()
-        self.conf.update_transaction_query(summa_day, 3)
+        self.conf.update_transaction_query(summa_month, 3)
 
 
 if __name__ == "__main__":
