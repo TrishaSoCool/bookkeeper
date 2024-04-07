@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pybookkeeper"
+version = "0.1.0"
+description = "Python app to manage your personal finances"
+authors = ["Anatoly Chistov <atchistov@gmail.com>", "LXDMIPT Group"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bookkeeper"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pyside6 = "^6.4.2"
+
+
+[tool.poetry.group.dev.dependencies]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
